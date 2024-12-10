@@ -23,9 +23,9 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeSet;
 
-import javax.inject.Inject;
-
 import com.gwtplatform.common.shared.UrlUtils;
+
+import jakarta.inject.Inject;
 
 /**
  * Implementation of {@link TokenFormatter} with support for route like place names.
@@ -223,9 +223,9 @@ public class RouteTokenFormatter implements TokenFormatter {
 
     @Override
     public String toHistoryToken(List<PlaceRequest> placeRequestHierarchy) throws TokenFormatException {
-        assert placeRequestHierarchy.size() == 1 : "Expected a place hierarchy with exactly one place.";
+        assert !placeRequestHierarchy.isEmpty() : "Expected a place hierarchy with one or more places.";
 
-        return toPlaceToken(placeRequestHierarchy.get(0));
+        return toPlaceToken(placeRequestHierarchy.get(placeRequestHierarchy.size() - 1));
     }
 
     @Override

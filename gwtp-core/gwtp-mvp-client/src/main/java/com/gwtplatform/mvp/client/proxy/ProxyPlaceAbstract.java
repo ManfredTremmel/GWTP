@@ -16,8 +16,6 @@
 
 package com.gwtplatform.mvp.client.proxy;
 
-import javax.inject.Inject;
-
 import com.google.gwt.core.client.Scheduler;
 import com.google.gwt.event.shared.GwtEvent;
 import com.google.gwt.user.client.Command;
@@ -28,6 +26,8 @@ import com.gwtplatform.mvp.client.HandlerContainerImpl;
 import com.gwtplatform.mvp.client.HasHandlerContainer;
 import com.gwtplatform.mvp.client.Presenter;
 import com.gwtplatform.mvp.shared.proxy.PlaceRequest;
+
+import jakarta.inject.Inject;
 
 /**
  * A useful mixing class to define a {@link Proxy} that is also a {@link Place}.

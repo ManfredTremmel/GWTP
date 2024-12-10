@@ -28,7 +28,7 @@ public interface HasPopupSlot {
      *
      * @param child The popup child, a {@link PresenterWidget}.
      */
-    void addToPopupSlot(final PresenterWidget<? extends PopupView> child);
+    void addToPopupSlot(PresenterWidget<? extends PopupView> child);
 
     /**
      * This method removes popup content within the {@link Presenter}. The view associated with the {@code content}'s
@@ -37,5 +37,5 @@ public interface HasPopupSlot {
      * @param child The popup child, a {@link PresenterWidget}, which has previously been added using {@link
      * #addToPopupSlot(PresenterWidget)}.
      */
-    void removeFromPopupSlot(final PresenterWidget<? extends PopupView> child);
+    void removeFromPopupSlot(PresenterWidget<? extends PopupView> child);
 }

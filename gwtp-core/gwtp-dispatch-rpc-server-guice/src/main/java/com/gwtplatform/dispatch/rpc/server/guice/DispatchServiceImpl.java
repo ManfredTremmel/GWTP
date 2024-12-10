@@ -16,14 +16,14 @@
 
 package com.gwtplatform.dispatch.rpc.server.guice;
 
-import javax.inject.Singleton;
-
 import com.google.inject.Inject;
 import com.gwtplatform.dispatch.rpc.server.AbstractDispatchServiceImpl;
 import com.gwtplatform.dispatch.rpc.server.Dispatch;
 import com.gwtplatform.dispatch.rpc.server.RequestProvider;
 import com.gwtplatform.dispatch.rpc.server.logger.DispatchServiceLogHandler;
 import com.gwtplatform.dispatch.shared.SecurityCookie;
+
+import jakarta.inject.Singleton;
 
 /**
  * This is the server-side implementation of the {@link com.gwtplatform.dispatch.rpc.shared.DispatchService},

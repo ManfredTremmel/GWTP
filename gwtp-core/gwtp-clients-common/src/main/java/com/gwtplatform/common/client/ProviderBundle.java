@@ -16,7 +16,7 @@
 
 package com.gwtplatform.common.client;
 
-import javax.inject.Provider;
+import jakarta.inject.Provider;
 
 /**
  * This class can be used to contain a group of providers that should all sit
