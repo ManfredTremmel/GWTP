@@ -16,8 +16,6 @@
 
 package com.gwtplatform.mvp.client.googleanalytics;
 
-import javax.inject.Inject;
-
 import com.google.gwt.core.client.Scheduler;
 import com.google.gwt.core.client.Scheduler.ScheduledCommand;
 import com.google.web.bindery.event.shared.EventBus;
@@ -25,6 +23,8 @@ import com.gwtplatform.mvp.client.annotations.GaAccount;
 import com.gwtplatform.mvp.client.proxy.NavigationEvent;
 import com.gwtplatform.mvp.client.proxy.NavigationHandler;
 import com.gwtplatform.mvp.client.proxy.PlaceManager;
+
+import jakarta.inject.Inject;
 
 /**
  * This class let's you register every navigation event to a Google Analytics

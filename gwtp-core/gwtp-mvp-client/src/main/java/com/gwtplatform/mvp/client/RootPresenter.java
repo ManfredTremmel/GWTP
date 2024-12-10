@@ -16,8 +16,6 @@
 
 package com.gwtplatform.mvp.client;
 
-import javax.inject.Inject;
-
 import com.google.gwt.dom.client.Document;
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.dom.client.Style;
@@ -39,6 +37,8 @@ import com.gwtplatform.mvp.client.proxy.RevealRootLayoutContentEvent;
 import com.gwtplatform.mvp.client.proxy.RevealRootLayoutContentHandler;
 import com.gwtplatform.mvp.client.proxy.RevealRootPopupContentEvent;
 import com.gwtplatform.mvp.client.proxy.RevealRootPopupContentHandler;
+
+import jakarta.inject.Inject;
 
 /**
  * This is the presenter for the top-level of the application. It is derived

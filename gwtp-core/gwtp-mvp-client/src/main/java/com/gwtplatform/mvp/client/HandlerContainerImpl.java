@@ -18,9 +18,9 @@ package com.gwtplatform.mvp.client;
 
 import java.util.List;
 
-import javax.inject.Inject;
-
 import com.google.web.bindery.event.shared.HandlerRegistration;
+
+import jakarta.inject.Inject;
 
 /**
  * The implementation of {@link HandlerContainer}. Inherit from this class if

@@ -20,9 +20,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import javax.inject.Inject;
-
 import com.gwtplatform.common.shared.UrlUtils;
+
+import jakarta.inject.Inject;
 
 /**
  * Formats tokens from {@code String} values to {@link PlaceRequest} and {@link PlaceRequest}

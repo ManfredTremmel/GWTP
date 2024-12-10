@@ -16,8 +16,6 @@
 
 package com.gwtplatform.dispatch.rest.client.gin;
 
-import javax.inject.Singleton;
-
 import com.google.inject.Provides;
 import com.gwtplatform.common.client.CommonGinModule;
 import com.gwtplatform.dispatch.client.gin.AbstractDispatchAsyncModule;
@@ -31,6 +29,8 @@ import com.gwtplatform.dispatch.rest.client.annotations.RestBinding;
 import com.gwtplatform.dispatch.rest.client.annotations.XsrfHeaderName;
 import com.gwtplatform.dispatch.rest.client.interceptor.RestInterceptorRegistry;
 import com.gwtplatform.dispatch.rest.client.serialization.SerializationModule;
+
+import jakarta.inject.Singleton;
 
 /**
  * An implementation of {@link AbstractDispatchAsyncModule} that binds classes used by a restful dispatch.

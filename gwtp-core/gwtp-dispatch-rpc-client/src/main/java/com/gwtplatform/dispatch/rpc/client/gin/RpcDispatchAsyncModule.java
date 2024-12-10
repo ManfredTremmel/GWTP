@@ -16,8 +16,6 @@
 
 package com.gwtplatform.dispatch.rpc.client.gin;
 
-import javax.inject.Singleton;
-
 import com.google.gwt.core.client.GWT;
 import com.google.inject.Provides;
 import com.gwtplatform.dispatch.client.DefaultSecurityCookieAccessor;
@@ -35,6 +33,8 @@ import com.gwtplatform.dispatch.rpc.client.interceptor.RpcInterceptorRegistry;
 import com.gwtplatform.dispatch.rpc.shared.DispatchAsync;
 import com.gwtplatform.dispatch.rpc.shared.DispatchService;
 import com.gwtplatform.dispatch.rpc.shared.DispatchServiceAsync;
+
+import jakarta.inject.Singleton;
 
 /**
  * An implementation of {@link AbstractDispatchAsyncModule} that uses Remote Procedure Calls (RPC).

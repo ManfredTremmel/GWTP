@@ -240,7 +240,7 @@
                 <!-- This is needed in order for the classes from gwt-dev that
                 (are used in ProxyGenerator class) to be resolved while creating the javadoc -->
                 <dependency>
-                    <groupId>com.google.gwt</groupId>
+                    <groupId>org.gwtproject</groupId>
                     <artifactId>gwt-dev</artifactId>
                     <scope>provided</scope>
                 </dependency>

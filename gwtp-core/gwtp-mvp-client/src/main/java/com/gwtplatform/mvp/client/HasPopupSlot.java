@@ -31,7 +31,7 @@ public interface HasPopupSlot {
      * @param child The popup child, a {@link PresenterWidget}.
      * @see #addToPopupSlot(PresenterWidget)
      */
-    void addToPopupSlot(final PresenterWidget<? extends PopupView> child);
+    void addToPopupSlot(PresenterWidget<? extends PopupView> child);
 
     /**
      * This method removes popup content within the {@link Presenter}. The view
@@ -41,7 +41,7 @@ public interface HasPopupSlot {
      *              previously been added using {@link #addToPopupSlot(PresenterWidget)}
      *              or {@link #addToPopupSlot(PresenterWidget, boolean)}
      */
-    void removeFromPopupSlot(final PresenterWidget<? extends PopupView> child);
+    void removeFromPopupSlot(PresenterWidget<? extends PopupView> child);
 
     /**
      * This method sets some popup content within the {@link Presenter}. The view
@@ -59,5 +59,5 @@ public interface HasPopupSlot {
      * @deprecated - Since 1.4. Use {@link #addToPopupSlot(PresenterWidget)} instead. Center no longer as any affect.
      */
     @Deprecated
-    void addToPopupSlot(final PresenterWidget<? extends PopupView> child, boolean center);
+    void addToPopupSlot(PresenterWidget<? extends PopupView> child, boolean center);
 }

@@ -89,7 +89,7 @@ public class DefaultClientActionHandlerRegistry implements ClientActionHandlerRe
     }
 
     /**
-     * Register a {@link javax.inject.Provider} of a client-side action handler.
+     * Register a {@link jakarta.inject.Provider} of a client-side action handler.
      *
      * @param actionType      The type of action that the client-side action handler supports.
      * @param handlerProvider The {@link com.google.inject.Provider} of the handler.
@@ -126,7 +126,7 @@ public class DefaultClientActionHandlerRegistry implements ClientActionHandlerRe
      * Register a client-side action handler that is part of a {@link com.gwtplatform.common.client.ProviderBundle}.
      *
      * @param actionType     The type of that the client-side action handler supports.
-     * @param bundleProvider The {@link javax.inject.Provider} of the
+     * @param bundleProvider The {@link jakarta.inject.Provider} of the
      *                       {@link com.gwtplatform.common.client.ProviderBundle}.
      * @param providerId     The id of the client-side action handler provider.
      */

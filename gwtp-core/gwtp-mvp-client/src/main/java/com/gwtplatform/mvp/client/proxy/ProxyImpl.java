@@ -16,13 +16,13 @@
 
 package com.gwtplatform.mvp.client.proxy;
 
-import javax.inject.Inject;
-
 import com.google.gwt.event.shared.GwtEvent;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.common.client.IndirectProvider;
 import com.gwtplatform.mvp.client.Presenter;
+
+import jakarta.inject.Inject;
 
 /**
  * @param <P> The presenter's type.

@@ -16,8 +16,6 @@
 
 package com.gwtplatform.mvp.client.proxy;
 
-import javax.inject.Inject;
-
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.place.shared.PlaceHistoryHandler.Historian;
 import com.google.web.bindery.event.shared.EventBus;
@@ -26,6 +24,8 @@ import com.gwtplatform.mvp.client.annotations.ErrorPlace;
 import com.gwtplatform.mvp.client.annotations.UnauthorizedPlace;
 import com.gwtplatform.mvp.shared.proxy.PlaceRequest;
 import com.gwtplatform.mvp.shared.proxy.TokenFormatter;
+
+import jakarta.inject.Inject;
 
 /**
  * This is a subtype of {@link com.gwtplatform.mvp.client.proxy.PlaceManagerImpl PlaceManagerImpl} that uses

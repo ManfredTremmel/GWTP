@@ -105,7 +105,7 @@ public abstract class MockHandlerModule extends AbstractModule {
         private final Class<A> actionClass;
         private final ClientActionHandler<A, R> clientActionHandler;
 
-        public MockClientActionHandlerMapImpl(final Class<A> actionClass,
+        MockClientActionHandlerMapImpl(final Class<A> actionClass,
                 final ClientActionHandler<A, R> clientActionHandler) {
             this.actionClass = actionClass;
             this.clientActionHandler = clientActionHandler;
@@ -185,6 +185,6 @@ public abstract class MockHandlerModule extends AbstractModule {
             Class<A> actionClass, H mockHandler) {
         bind(MockClientActionHandlerMap.class).annotatedWith(
                 UniqueAnnotations.create()).toInstance(
-                new MockClientActionHandlerMapImpl<A, R>(actionClass, mockHandler));
+                    new MockClientActionHandlerMapImpl<A, R>(actionClass, mockHandler));
     }
 }

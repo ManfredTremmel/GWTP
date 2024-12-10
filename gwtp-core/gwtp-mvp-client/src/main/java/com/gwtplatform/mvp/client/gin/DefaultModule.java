@@ -18,8 +18,6 @@ package com.gwtplatform.mvp.client.gin;
 
 import java.lang.annotation.Annotation;
 
-import javax.inject.Singleton;
-
 import com.google.gwt.inject.client.AbstractGinModule;
 import com.google.web.bindery.event.shared.EventBus;
 import com.google.web.bindery.event.shared.SimpleEventBus;
@@ -34,6 +32,8 @@ import com.gwtplatform.mvp.client.proxy.DefaultPlaceManager;
 import com.gwtplatform.mvp.client.proxy.PlaceManager;
 import com.gwtplatform.mvp.shared.proxy.ParameterTokenFormatter;
 import com.gwtplatform.mvp.shared.proxy.TokenFormatter;
+
+import jakarta.inject.Singleton;
 
 /**
  * Module with default GWTP bindings. You can use {@link DefaultModule.Builder} to configure each required bindings.

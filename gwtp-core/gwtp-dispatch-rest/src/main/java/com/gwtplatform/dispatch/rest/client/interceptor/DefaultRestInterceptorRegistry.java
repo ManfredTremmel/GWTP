@@ -107,7 +107,7 @@ public class DefaultRestInterceptorRegistry implements RestInterceptorRegistry {
     }
 
     /**
-     * Register a {@link javax.inject.Provider} of a client-side interceptor.
+     * Register a {@link jakarta.inject.Provider} of a client-side interceptor.
      *
      * @param context         The {@link InterceptorContext} for the rest interceptor.
      * @param handlerProvider The {@link com.google.inject.Provider} of the handler.
@@ -144,7 +144,7 @@ public class DefaultRestInterceptorRegistry implements RestInterceptorRegistry {
      * Register a client-side interceptor that is part of a {@link com.gwtplatform.common.client.ProviderBundle}.
      *
      * @param context        The {@link InterceptorContext} for the rest interceptor.
-     * @param bundleProvider The {@link javax.inject.Provider} of the
+     * @param bundleProvider The {@link jakarta.inject.Provider} of the
      *                       {@link com.gwtplatform.common.client.ProviderBundle}.
      * @param providerId     The id of the client-side interceptor provider.
      */
