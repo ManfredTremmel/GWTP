@@ -7,7 +7,7 @@
         <version>9</version>
     </parent>
 
-    <groupId>com.gwtplatform</groupId>
+    <groupId>de.knightsoft-net</groupId>
     <artifactId>gwtp</artifactId>
     <version>1.7-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -185,14 +185,14 @@
     </contributors>
 
     <scm>
-        <connection>scm:git:git@github.com:ArcBees/GWTP.git</connection>
-        <developerConnection>scm:git:git@github.com:ArcBees/GWTP.git</developerConnection>
-        <url>https://github.com/ArcBees/GWTP</url>
+        <connection>scm:git:git@github.com:ManfredTremmel/GWTP.git</connection>
+        <developerConnection>scm:git:git@github.com:ManfredTremmel/GWTP.git</developerConnection>
+        <url>https://github.com/ManfredTremmel/GWTP</url>
       <tag>HEAD</tag>
   </scm>
 
     <issueManagement>
-        <url>https://github.com/ArcBees/GWTP/issues</url>
+        <url>https://github.com/ManfredTremmel/GWTP/issues</url>
         <system>Github Issues</system>
     </issueManagement>
 
@@ -251,7 +251,7 @@
         <!-- Client -->
         <gwt.version>2.12.1</gwt.version>
         <!-- when you update the gwt version please also update the dtds in all gwt.xml files -->
-        <gin.version>HEAD-SNAPSHOT</gin.version>
+        <gin.version>4.0.0-SNAPSHOT</gin.version>
         <gwt-jackson.version>0.15.4</gwt-jackson.version>
 
         <!-- Server -->
@@ -269,7 +269,7 @@
         <htmlunit.version>2.70.0</htmlunit.version>
 
         <!-- Testing -->
-        <jukito.version>1.5</jukito.version>
+        <jukito.version>1.6-SNAPSHOT</jukito.version>
         <junit.version>4.13.2</junit.version>
         <mockito.version>4.11.0</mockito.version>
         <gwtmockito.version>1.1.9</gwtmockito.version>

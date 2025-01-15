@@ -6,7 +6,7 @@
     </properties>
 
     <parent>
-        <groupId>com.gwtplatform</groupId>
+        <groupId>de.knightsoft-net</groupId>
         <artifactId>gwtp</artifactId>
         <version>1.7-SNAPSHOT</version>
     </parent>
@@ -223,7 +223,7 @@
                 <version>${guice.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.gwtplus.gin</groupId>
+                <groupId>de.knightsoft-net</groupId>
                 <artifactId>gin</artifactId>
                 <version>${gin.version}</version>
             </dependency>
@@ -268,7 +268,7 @@
 
             <!-- Test dependencies -->
             <dependency>
-                <groupId>org.jukito</groupId>
+                <groupId>de.knightsoft-net</groupId>
                 <artifactId>jukito</artifactId>
                 <version>${jukito.version}</version>
                 <scope>test</scope>
