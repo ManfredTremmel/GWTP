@@ -10,10 +10,10 @@
         <dependencySet>
             <unpack>true</unpack>
             <includes>
-                <include>com.gwtplatform:*:*:</include>
+                <include>de.knightsoft-net:*:*:</include>
             </includes>
             <excludes>
-                <exclude>com.gwtplatform:*:*:sources</exclude>
+                <exclude>de.knightsoft-net:*:*:sources</exclude>
             </excludes>
         </dependencySet>
     </dependencySets>
