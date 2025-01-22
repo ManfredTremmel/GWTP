@@ -45,7 +45,7 @@ import jakarta.inject.Inject;
  * from presenter widget, but it's just because it doesn't need a proxy has it
  * will be bound as an eager singleton. It sets content within GWT's
  * {@link RootPanel} and {@link RootLayoutPanel}.
- * <p/>
+ * <p>
  * Fire a {@link RevealRootContentEvent} or {@link RevealRootLayoutContentEvent}
  * to set your presenter at the top level. The choice depends on whether your
  * presenter works as a {@link com.google.gwt.user.client.ui.Panel} or as a
@@ -132,7 +132,7 @@ public class RootPresenter extends PresenterWidget<RootPresenter.RootView>
 
         /**
          * Return the RootPanel on which to add the content.
-         * <p />
+         * <p>
          * It returns the default RootPanel.
          * It can be overriden to return another RootPanel to allow embeding the application.
          * @return the RootPanel on which to add the content

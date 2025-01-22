@@ -38,7 +38,7 @@ import jakarta.inject.Inject;
  * </p>
  * <p>
  * Replace the default binding to {@link ParameterTokenFormatter} with {@link RouteTokenFormatter}. In case you use
- * GWTPs {@link com.gwtplatform.mvp.client.gin.DefaultModule DefaultModule}:
+ * GWTPs com.gwtplatform.mvp.client.gin.DefaultModule:
  * </p>
  * <pre>
  * install(new DefaultModule(DefaultPlaceManager.class, RouteTokenFormatter.class));
@@ -114,7 +114,7 @@ public class RouteTokenFormatter implements TokenFormatter {
     private class RouteMatcher {
         /**
          * All matching routes of the place-token.
-         * <p/>
+         * <p>
          * Sorted in ascending order by the number of static matches.
          */
         final TreeSet<RouteMatch> allMatches;

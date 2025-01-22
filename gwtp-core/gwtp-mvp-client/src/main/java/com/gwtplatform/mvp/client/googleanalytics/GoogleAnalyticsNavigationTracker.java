@@ -31,10 +31,10 @@ import jakarta.inject.Inject;
  * account. To use it, you must bind GoogleAnalytics as eager singleton in your
  * gin module and also bind the annotation {@link GaAccount} to your Google
  * Analytics account number:
- * <p/>
+ * <p>
  * <code>bind(GoogleAnalyticsImpl.class).to(GoogleAnalytics.class).asEagerSingleton();
  * bindConstant().annotatedWith(GaAccount.class).to("UA-12345678-1");</code>
- * <p/>
+ * <p>
  * If you want to log custom events, see {@link GoogleAnalytics}.
  *
  * @deprecated Since 1.4. Use https://github.com/ArcBees/universal-analytics instead.

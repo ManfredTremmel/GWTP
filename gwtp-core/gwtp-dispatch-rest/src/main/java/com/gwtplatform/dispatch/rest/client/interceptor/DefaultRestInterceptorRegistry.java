@@ -30,9 +30,9 @@ import com.gwtplatform.dispatch.rest.shared.RestAction;
 /**
  * The rest implementation of {@link com.gwtplatform.dispatch.rest.client.interceptor.RestInterceptorRegistry}
  * that if bound will not load any client-side interceptors.
- * </p>
+ * <p>
  * To register client-side interceptors, extend this class and call {@link #register} in the constructor.
- * <h3><u>Example</u></h3>
+ * <h2><u>Example</u></h2>
  * <pre>
  * <code>
  * public class MyRestInterceptorRegistry extends RestInterceptorRegistry {
