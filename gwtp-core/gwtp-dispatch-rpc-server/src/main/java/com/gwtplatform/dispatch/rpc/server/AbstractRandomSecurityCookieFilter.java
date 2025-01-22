@@ -33,12 +33,12 @@ import jakarta.servlet.http.HttpServletResponse;
 /**
  * This filter will automatically inject a security cookie inside the request the first time the page is loaded. This
  * security cookie is a simple randomly generated number. To setup this filter, add the following line
- * before any other {@code serve} call in your own {@link com.google.inject.servlet.ServletModule#configureServlets}:
- * <p/>
+ * before any other {@code serve} call in your own {@code com.google.inject.servlet.ServletModule#configureServlets}:
+ * <p>
  * <pre>
  * filter(&quot;*.jsp&quot;).through(HttpSessionSecurityCookieFilter.class);
  * </pre>
- * <p/>
+ * <p>
  * You also have to use a {@code .jsp} file instead of a {@code .html} as your main GWT file.
  */
 public abstract class AbstractRandomSecurityCookieFilter implements Filter {

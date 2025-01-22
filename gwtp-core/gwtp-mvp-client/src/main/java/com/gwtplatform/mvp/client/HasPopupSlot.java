@@ -23,11 +23,11 @@ public interface HasPopupSlot {
      * centers it. The view associated with the {@code content}'s presenter must
      * inherit from {@link PopupView}. The popup will be visible and the
      * corresponding presenter will receive the lifecycle events as needed.
-     * <p/>
-     * Contrary to the {@link #setInSlot} method, no
+     * <p>
+     * Contrary to the {@code #setInSlot} method, no
      * {@link com.gwtplatform.mvp.client.proxy.ResetPresentersEvent} is fired,
      * so {@link PresenterWidget#onReset()} is not invoked.
-     * <p/>
+     * <p>
      * @param child The popup child, a {@link PresenterWidget}.
      * @see #addToPopupSlot(PresenterWidget)
      */
@@ -48,7 +48,7 @@ public interface HasPopupSlot {
      * associated with the {@code content}'s presenter must inherit from
      * {@link PopupView}. The popup will be visible and the corresponding
      * presenter will receive the lifecycle events as needed.
-     * <p/>
+     * <p>
      * Contrary to the {@link View#setInSlot(Object, com.google.gwt.user.client.ui.IsWidget)}
      * method, no {@link com.gwtplatform.mvp.client.proxy.ResetPresentersEvent}
      * is fired, so {@link PresenterWidget#onReset()} is not invoked.

@@ -32,7 +32,7 @@ import jakarta.inject.Inject;
 /**
  * A useful mixing class to define a {@link Proxy} that is also a {@link Place}.
  * You can usually inherit from the simpler form {@link ProxyPlace}.
- * <p/>
+ * <p>
  *
  * @param <P>      The Presenter's type.
  * @param <Proxy_> Type of the associated {@link Proxy}.
@@ -175,7 +175,7 @@ public class ProxyPlaceAbstract<P extends Presenter<?, ?>, Proxy_ extends Proxy<
 
     /**
      * Injects the various resources and performs other bindings.
-     * <p/>
+     * <p>
      * Never call directly, it should only be called by GIN. Method injection is
      * used instead of constructor injection, because the latter doesn't work well
      * with GWT generators.

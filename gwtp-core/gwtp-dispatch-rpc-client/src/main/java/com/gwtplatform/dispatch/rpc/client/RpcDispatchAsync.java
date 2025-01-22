@@ -28,7 +28,7 @@ import jakarta.inject.Inject;
 
 /**
  * This class is the default implementation of {@link com.gwtplatform.dispatch.rpc.shared.DispatchAsync}, which is
- * essentially the client-side access to the {@link com.gwtplatform.dispatch.rpc.server.Dispatch} class on the
+ * essentially the client-side access to the com.gwtplatform.dispatch.rpc.server.Dispatch class on the
  * server-side.
  */
 public class RpcDispatchAsync implements DispatchAsync {

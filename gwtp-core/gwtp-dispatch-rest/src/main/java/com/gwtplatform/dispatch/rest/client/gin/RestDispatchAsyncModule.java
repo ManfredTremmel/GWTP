@@ -34,10 +34,10 @@ import jakarta.inject.Singleton;
 
 /**
  * An implementation of {@link AbstractDispatchAsyncModule} that binds classes used by a restful dispatch.
- * <p/>
+ * <p>
  * This gin module provides access to the {@link RestDispatch} singleton, which is used to make calls to the server over
  * HTTP.
- * <p/>
+ * <p>
  * <b>You must</b> manually bind {@literal @}{@link com.gwtplatform.dispatch.rest.client.RestApplicationPath
  * RestApplicationPath} to point to your server API root path.
  */

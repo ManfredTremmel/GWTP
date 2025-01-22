@@ -26,7 +26,7 @@ import jakarta.inject.Inject;
  * Used internally by generated code to access various implementations bound by GIN. Injection could be used in
  * generated code but because of changes introduced to the compiler in GWT 2.7, GIN generators may run before the
  * generated GIN module is created and injection doesn't work in generated code.
- * <p/>
+ * <p>
  * <strong>Don't use this class as it may change without notice.</strong>
  */
 public class StaticParametersFactory {

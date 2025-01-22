@@ -22,8 +22,9 @@ import jakarta.inject.Inject;
 
 /**
  * The default Bootstrapper that is used by GWTP if no other is specified via
- * {@link com.gwtplatform.mvp.client.annotations.Bootstrap}.
- * @see https://github.com/ArcBees/GWTP/wiki/Bootstrapping
+ * {@code com.gwtplatform.mvp.client.annotations.Bootstrap}.
+ *
+ * see https://github.com/ArcBees/GWTP/wiki/Bootstrapping
  */
 public class DefaultBootstrapper implements Bootstrapper {
     private final PlaceManager placeManager;
