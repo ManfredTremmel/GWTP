@@ -247,6 +247,7 @@
         <webdrivermanager.version>5.9.2</webdrivermanager.version>
         <versions-maven-plugin.version>2.18.0</versions-maven-plugin.version>
         <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
+        <nexus-staging-maven-plugin>1.7.0</nexus-staging-maven-plugin>
 
         <!-- Client -->
         <gwt.version>2.12.1</gwt.version>
@@ -557,6 +558,19 @@
                     </excludes>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>${nexus-staging-maven-plugin}</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <!-- The Base URL of Nexus instance where we want to stage -->
+                    <serverId>sonatype-nexus-staging</serverId>
+                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+           </plugin>
         </plugins>
     </build>
 
