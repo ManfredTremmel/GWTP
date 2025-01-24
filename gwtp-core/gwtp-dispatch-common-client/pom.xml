@@ -26,7 +26,7 @@
             <artifactId>gwt-user</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.github.gwtplus.gin</groupId>
+            <groupId>de.knightsoft-net</groupId>
             <artifactId>gin</artifactId>
         </dependency>
     </dependencies>

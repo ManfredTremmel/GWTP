@@ -79,7 +79,7 @@
             <artifactId>gwt-dev</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.github.gwtplus.gin</groupId>
+            <groupId>de.knightsoft-net</groupId>
             <artifactId>gin</artifactId>
         </dependency>
 
@@ -101,7 +101,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.jukito</groupId>
+            <groupId>de.knightsoft-net</groupId>
             <artifactId>jukito</artifactId>
         </dependency>
         <dependency>
