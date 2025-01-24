@@ -131,7 +131,7 @@ public class DefaultModule extends AbstractGinModule {
      * When instantiating the module this way be sure to read {@link DefaultPlaceManager} and manually bind the required
      * constants. Consider using {@link DefaultModule.Builder} if you need to use a different implementation than the
      * default one for a binding.
-     * <p/>
+     * <p>
      * <b>Important!</b> If you use this class, don't forget to bind {@link DefaultPlace}, {@link ErrorPlace} and {@link
      * UnauthorizedPlace} to name tokens associated to a presenter.<br/>
      */

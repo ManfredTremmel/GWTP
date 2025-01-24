@@ -21,10 +21,10 @@ public interface HasPopupSlot {
      * This method sets some popup content within the {@link Presenter} and centers it. The view associated with the
      * {@code content}'s presenter must inherit from {@link PopupView}. The popup will be visible and the corresponding
      * presenter will receive the lifecycle events as needed.
-     * <p/>
+     * <p>
      * No {@link com.gwtplatform.mvp.client.proxy.ResetPresentersEvent ResetPresentersEvent} is fired, so {@link
      * PresenterWidget#onReset()} is not invoked.
-     * <p/>
+     * <p>
      *
      * @param child The popup child, a {@link PresenterWidget}.
      */

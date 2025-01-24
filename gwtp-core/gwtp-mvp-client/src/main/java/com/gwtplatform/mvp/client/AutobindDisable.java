@@ -28,7 +28,7 @@ import jakarta.inject.Singleton;
  * </pre>
  * If you do not bind this class then autobinding is controlled on a case-by-case
  * basis using the {@link HandlerContainerImpl}'s constructors.
- * <p/>
+ * <p>
  * Disabling automatic binding can be useful in unit tests, for example.
  */
 @Singleton

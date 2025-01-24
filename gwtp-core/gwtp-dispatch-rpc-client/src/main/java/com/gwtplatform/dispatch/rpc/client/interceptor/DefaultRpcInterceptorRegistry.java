@@ -27,11 +27,11 @@ import com.gwtplatform.common.client.ProviderBundle;
 
 /**
  * The default implementation that {@link RpcInterceptorRegistry} that if bound will not load any client-side
- * interceptors. </p> To register client-side interceptors, extend this class and call {@link #register} in the
+ * interceptors. <p> To register client-side interceptors, extend this class and call {@link #register} in the
  * constructor.
- * <p/>
- * <h3><u>Example</u></h3>
- * <p/>
+ * <p>
+ * <h2><u>Example</u></h2>
+ * <p>
  * <pre>
  * <code>
  * public class MyRpcInterceptorRegistry extends DefaultClientInterceptorRegistry {

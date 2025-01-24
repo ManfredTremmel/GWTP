@@ -55,7 +55,7 @@ public class ProxyImpl<P extends Presenter<?, ?>> implements Proxy<P> {
 
     /**
      * Injects the various resources and performs other bindings.
-     * <p/>
+     * <p>
      * Never call directly, it should only be called by GIN. Method injection is
      * used instead of constructor injection, because the latter doesn't work well
      * with GWT generators.
