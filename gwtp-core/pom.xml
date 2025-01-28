@@ -8,7 +8,7 @@
     <parent>
         <groupId>de.knightsoft-net</groupId>
         <artifactId>gwtp</artifactId>
-        <version>1.7</version>
+        <version>1.7.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>gwtp-core</artifactId>
