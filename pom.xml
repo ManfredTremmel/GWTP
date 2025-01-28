@@ -9,7 +9,7 @@
 
     <groupId>de.knightsoft-net</groupId>
     <artifactId>gwtp</artifactId>
-    <version>1.7-SNAPSHOT</version>
+    <version>1.7</version>
     <packaging>pom</packaging>
     <name>GWT-Platform</name>
     <inceptionYear>2010</inceptionYear>
@@ -188,8 +188,8 @@
         <connection>scm:git:git@github.com:ManfredTremmel/GWTP.git</connection>
         <developerConnection>scm:git:git@github.com:ManfredTremmel/GWTP.git</developerConnection>
         <url>https://github.com/ManfredTremmel/GWTP</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>gwtp-1.7</tag>
+    </scm>
 
     <issueManagement>
         <url>https://github.com/ManfredTremmel/GWTP/issues</url>
